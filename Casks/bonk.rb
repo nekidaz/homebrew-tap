@@ -1,8 +1,8 @@
 cask "bonk" do
-  version "0.1.1"
-  sha256 "e6d9896b9466780da8359679be6943cda8d3bb70f069cba1fcc3a0ac562da73a"
+  version "0.1.2"
+  sha256 "fc760dfc2c6f4adba6c9ad5439835162f38b95c4b54c2dcefa1b48fb2d22239d"
 
-  url "https://github.com/nekidaz/.bonk/releases/download/v#{version}/bonk_#{version}_universal.dmg"
+  url "https://github.com/nekidaz/.bonk/releases/download/v#{version}/bonk_#{version}_aarch64.dmg"
   name "bonk"
   desc "Local-first desktop API client for HTTP and gRPC"
   homepage "https://github.com/nekidaz/.bonk"
