@@ -1,6 +1,6 @@
 cask "bonk" do
-  version "0.1.4"
-  sha256 "f06af74ac5ff61da93cbe978c95d6f6005187d4e69a602942233a7d85ec461b0"
+  version "0.1.5"
+  sha256 "f8d9f5ed1313410b68d919c27f149b52734256a8c18be2c7f67237e786eac4b8"
 
   url "https://github.com/nekidaz/.bonk/releases/download/v#{version}/bonk_#{version}_aarch64.dmg"
   name "bonk"
