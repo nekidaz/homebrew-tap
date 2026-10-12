@@ -1,19 +1,19 @@
 class Bonk < Formula
   desc "Run Bonk API collections from the terminal and CI"
   homepage "https://github.com/nekidaz/.bonk"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
     url "https://github.com/nekidaz/.bonk/releases/download/v#{version}/bonk-aarch64-apple-darwin.tar.gz"
-    sha256 "55f25bb05563c2ab6b53f56c8315119031218b02e97b00e71afa7a028a135976"
+    sha256 "3dd508c7f83363a95a2f90134d5fa9c1dd108432de71e7e6b76588be76193b03"
   end
 
   on_linux do
     depends_on arch: :x86_64
     url "https://github.com/nekidaz/.bonk/releases/download/v#{version}/bonk-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "922f5bf1a356048d2140bbd1813c5767dcbd3fc30562af335e99f8bf1c5a14c6"
+    sha256 "4e4aa13fe5b0c6aad020078bdb771ab90cd6ad75b86438178ac804ebb9ba3723"
   end
 
   def install
